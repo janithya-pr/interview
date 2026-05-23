@@ -9,6 +9,9 @@ func main() {
 	// Count Vowels
 	total := CountVowels("Hello, world!")
 	fmt.Println("Total vowels:", total)
+
+	// Password Hashing
+	PasswordHash("abc123", "xyz")
 }
 
 // Number of vowels in a given text
